@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  height: 90px;
+  color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar {
+  order: 2;
+}
+@media (max-width: 765px) {
+  .navbar {
+    order: 1;
+  }
+}
+
+.navbar-toggler {
+  color: none !important ;
+  border-color: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.nav-text {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  text-align: center;
+  color: #171717;
+  order: 1;
+}
+.header-logo p {
+  color: #f17228;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+.header-logo {
+  padding: 10px;
+  order: 1;
+}
+.header-search {
+  order: 3;
+}
+.header-rightside img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.header-rightside {
+  width: 100px;
+  /* box-sizing: border-box; */
+  order: 4;
+}
+.header-rightside p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f17228;
+  margin-top: 14px;
+  margin-left: 5px;
+}
+.nav-nuur {
+  padding-left: 0.5rem;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 0.5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Primary */
+
+  color: #f17228;
+}
+.header-searching {
+  padding-left: 25px;
+  background: rgba(255, 255, 255, 0.5);
+  /* warm.orange */
+
+  border: 1px solid #fbc5a6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 235px;
+  height: 32px;
+  margin-top: 28px;
+}
+#searchInput {
+  background-image: url("/pictures/Icons/header/searchlogo.svg");
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: 10px;
+}
