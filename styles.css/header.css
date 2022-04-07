@@ -6,6 +6,7 @@ header {
 }
 .navbar {
   order: 2;
+  margin-bottom: 0px !important;
 }
 @media (max-width: 765px) {
   .navbar {
@@ -55,7 +56,7 @@ header {
   margin-left: 5px;
 }
 .header-rightside {
-  width: 100px;
+  width: 150px;
   /* box-sizing: border-box; */
   order: 4;
 }
@@ -97,7 +98,6 @@ header {
   border-radius: 10px;
   width: 235px;
   height: 32px;
-  margin-top: 28px;
 }
 #searchInput {
   background-image: url("/pictures/Icons/header/searchlogo.svg");
